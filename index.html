@@ -7,20 +7,28 @@
     <title>Box Model</title>
     <style>
         div {
+            display: inline-block;
             background-color: #369;
-            width: 300;
-            height: 300;
+            width: 300px;
+            height: 300px;
+        }
+
+        .container {
+            display: inline-block;
+            background-color: #963;
+            width: 900px;
+            height: 900px;
         }
     </style>
 </head>
 
 <body>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
-
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 
 
 </body>
