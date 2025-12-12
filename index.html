@@ -6,46 +6,117 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Model</title>
     <style>
-        div {
-            display: inline-block;
+        body {
+            background-color: #444;
+        }
+
+        .div {
+
             background-color: #369;
-            width: 297px;
+            width: 296px;
             height: 300px;
+            float: right;
+            border-radius: 15px;
+            margin: 1px;
+            border: 1px solid #759;
         }
 
         .container {
-            display: inline-block;
-            background-color: #963;
-            width: 900px;
+
+            background-color: rgb(212, 226, 16);
+            width: auto;
             height: 900px;
+            border-radius: none;
+            float: right;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        p {
+            margin: 10px;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div>
+        <div class="div">
             <h2>HTML</h2>
 
             <p>Hyper Text Markup Language:
-                is a language for describing web page structure
+                is a language for describing web &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;page
+                structure
                 for example
                 &ltp&gt used for describing paragraph</p>
         </div>
-        <div>
+        <div class="div">
             <h2>css</h2>
             stands for:Cascading Style Sheets
             make the page beautiful
         </div>
-        <div>
+        <div class="div">
             <h2>JS</h2>
             stands for java script
             make the page interactive
         </div>
-        <div>
+        <div class="div">
 
         </div>
+        <div class="clear"></div>
+        <p>
+            <code>
+
+    Some Useful HTML Character Entities<br>
+
+    Result Description Name Number<br>
+
+    non-breaking space &nbsp; &#160;<br>
+
+    &lt; less than &lt; &#60;&#62; greater than &gt; &#62;<br>
+
+    & ampersand &amp; &#38;<br>
+
+    " double quotation mark &quot; &#34;<br>
+
+    ' single quotation mark &apos; &#39;<br>
+
+    ¢ cent &cent; &#162;<br>
+
+    £ pound &pound; &#163;<br>
+
+    ¥ yen &yen; &#165;<br>
+
+    € euro &euro; &#8364;<br>
+
+    © copyright &copy; &#169;<br>
+
+    ® registered trademark &reg; &#174;<br>
+
+    ™ trademark &trade; &#8482;<br>
+    
+</code>
+        <pre>    Some Useful HTML Character Entities 
+    Result Description Name Number
+    non-breaking space &nbsp; &#160;
+    &lt; less than &lt; &#60;&#62; greater than &gt; &#62;
+    & ampersand &amp; &#38;
+    " double quotation mark &quot; &#34;
+    ' single quotation mark &apos; &#39;
+    ¢ cent &cent; &#162;
+    £ pound &pound; &#163;
+    ¥ yen &yen; &#165;
+    € euro &euro; &#8364;
+    © copyright &copy; &#169;
+    ® registered trademark &reg; &#174;
+    ™ trademark &trade; &#8482;
+    
+</pre>
+        </p>
     </div>
+
+
 
 
 </body>
