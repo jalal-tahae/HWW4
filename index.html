@@ -10,12 +10,17 @@
             background-color: #444;
         }
 
+        .flr {
+            float: right;
+
+        }
+
         .div {
 
             background-color: #369;
             width: 296px;
-            height: 300px;
-            float: right;
+            height: 320px;
+
             border-radius: 15px;
             margin: 1px;
             border: 1px solid #759;
@@ -23,35 +28,67 @@
 
         .container {
 
-            background-color: rgb(212, 226, 16);
-            width: 100%;
+
+            width: 99%;
             height: 1200px;
             border-radius: 5px;
             float: right;
+
         }
 
         .left {
 
-            background-color: rgb(22, 126, 156);
+            float: right;
+        }
+
+        .container:nth-child(1) {
+            margin: 5px;
+            background-color: rgb(212, 226, 16);
+
             width: 100%;
             height: 1200px;
             border-radius: 4px;
-            float: right;
+        }
+
+        .container:nth-child(2) {
+            margin: 5px;
+            background-color: bisque;
+
+            width: 100%;
+            height: 1200px;
+            border-radius: 4px;
+        }
+
+        .whA {
+            width: auto;
+            height: auto;
         }
 
         .clear {
             clear: both;
         }
 
+        div {
+            padding: 6px;
+        }
+
         p {
             margin: 10px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            padding: 6px;
+
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="div">
+    <div class="container flr">
+        <div class="div flr">
             <h2>HTML</h2>
 
             <p>Hyper Text Markup Language:
@@ -60,18 +97,24 @@
                 for example
                 &ltp&gt used for describing paragraph</p>
         </div>
-        <div class="div">
-            <h2>css</h2>
+        <div class="div flr">
+            <h2>CSS</h2>
             stands for:Cascading Style Sheets
             make the page beautiful
         </div>
-        <div class="div">
+        <div class="div flr">
             <h2>JS</h2>
             stands for java script
             make the page interactive
         </div>
-        <div class="div">
+        <div class="div flr">
+            <h2> PHP</h2>
 
+            Make your web site active and user interactive.
+            <p>PHP is a general-purpose scripting language geared towards web development. It was created by
+                Danish-Canadian programmer Rasmus Lerdorf in 1993 and released in 1995. The PHP reference
+                implementation is now produced by the PHP Group. PHP was originally an abbreviation of Personal Home
+                Page, but it now stands for the recursive backronym PHP: Hypertext Preprocessor</p>
         </div>
         <div class="clear"></div>
         <p>
@@ -138,26 +181,7 @@
         </pre>
         </p>
     </div>
-    <div class="container left">
-        <div>
-            <h1>رزومه کاری محمد جلال طه یی</h1>
-        </div>
-        <div>
-            <h2>فهرست</h2>
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
-            <h3></h3>
-        </div>
-        <div>
-            <p>
 
-            </p>
-        </div>
-    </div>
 </body>
 
 </html>
